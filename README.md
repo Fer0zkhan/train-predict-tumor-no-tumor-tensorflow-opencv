@@ -56,7 +56,12 @@ This project focuses on the **automatic detection of liver tumors** in CT images
 
 ## **How to Use**
 
-### **First You have to train model using the dateset_6**
+### **First You have to train the model using the dateset_6**
+```bash
+python main.py
+``` 
+
+### If you want to use pre-trained data then don't run 
 ```bash
 python main.py
 ``` 
@@ -112,6 +117,7 @@ The CSV file should have the following columns:
 ├── main.py                       # Script for train the model
 ├── .gitignore                    # GitIgnore
 ├── requirements.txt              # Python dependencies
+├── saved_model.h5                # Pre Trained Model
 └── README.md                     # Project documentation
 ```
 
